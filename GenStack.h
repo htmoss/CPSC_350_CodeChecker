@@ -45,7 +45,7 @@ GenStack<T>::GenStack(int maxSize)
 template <class T>
 GenStack<T>::~GenStack()
 {
-  delete myArray;
+  delete myArray[];
   cout<< "GenStack deleted"<<endl;
 }
 
